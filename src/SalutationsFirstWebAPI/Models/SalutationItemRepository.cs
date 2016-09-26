@@ -18,7 +18,7 @@ namespace SalutationsFirstWebAPI.Models
         public IEnumerable<SalutationItem> GetAll() {
             return _salutations.Values;
         }
-        //TODO refine:
+        //TODO Add Logic to Workflow:
         public void Add(SalutationItem item){
 
             _salutations[item.word] = item;
